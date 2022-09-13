@@ -1,7 +1,7 @@
 /*
 Theme Name: BuddyX Child
 Theme URI: https://wbcomdesigns.com/downloads/buddyx-theme/
-Template: buddyx
+Template: buddyx-child
 Author: wbcomdesigns,vapvarun
 Author URI: https://github.com/vapvarun/buddyx
 Description: BuddyX is an ideal theme for community and membership websites. Providing a solution to all kinds of communities. Thanks to it's BuddyPress support, your website can now have member profiles, send a private message, create groups and so much more. It is a lightweight, fully responsive, seo optimised, RTL &amp; translation ready theme. BuddyX provides support for WooCommerce, WC Vendors, LearnDash, LearnPress and Gamipress plugins. It is highly customizable and works perfectly with page builders such as Elementor and Gutenberg. BuddyX is perfect for creating social learning, marketplace and blogging websites using BuddyPress integration. BuddyX is built using the latest best practices for progressive web content and optimization. It is well tested with the latest BuddyPress version and popular BuddyPress addons. It is developed, maintained, and supported by Wbcom Designs.
@@ -13,3 +13,19 @@ Updated: 2022-09-13 10:33:31
 
 
 
+p {
+    color: #28364a;
+}
+
+main {
+    background-color: #f2f0ea
+}
+
+#page.site {
+    background: rgb(124,103,82);
+background: radial-gradient(circle, rgba(124,103,82,1) 0%, rgba(81,81,64,1) 21%, rgba(15,36,53,1) 100%);
+}
+
+article {
+   background-color: #f2f0ea;
+}
