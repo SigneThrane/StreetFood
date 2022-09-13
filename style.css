@@ -14,11 +14,17 @@ Updated: 2022-09-13 10:33:31
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
 .site-header-wrapper {
-    background-color: #e48547;
+    background: rgb(124,103,82);
+background: radial-gradient(circle, rgba(124,103,82,1) 0%, rgba(81,81,64,1) 21%, rgba(15,36,53,1) 100%);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
 }
 
 .site-title {
-    font-family: 'Patrick Hand', cursive;
+    font-family: oswald, sans-serif;
+    text-transform: uppercase;
+    color: #ffffff;
+
 }
 
 p {
@@ -30,25 +36,25 @@ a {
 }
 
 input {
-    background-color: #e48547;
+    background: rgb(124,103,82);
+background: radial-gradient(circle, rgba(124,103,82,1) 0%, rgba(81,81,64,1) 21%, rgba(15,36,53,1) 100%);
 }
 
 main {
     background-color: #f2f0ea
 }
 
-.site-navigation {
-    position: relative;
-    font-family: Oswald, sans-serif;
-    font-size: 1.2em;
-    line-height: 1.4;
-    letter-spacing: 0.125em;
+
+
+ul li {
+    font-size: large;
+    font-family: oswald, sans-serif;
     text-transform: uppercase;
+    color: #ffffff;
 }
 
 #page.site {
-    background: rgb(124,103,82);
-background: radial-gradient(circle, rgba(124,103,82,1) 0%, rgba(81,81,64,1) 21%, rgba(15,36,53,1) 100%);
+    background-color: #263346;
 }
 
 article {
