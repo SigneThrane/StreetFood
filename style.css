@@ -53,7 +53,7 @@ main {
 
 
 
-ul li {
+ul#primary-menu {
     font-size: large;
     font-family: oswald, sans-serif;
     text-transform: uppercase;
