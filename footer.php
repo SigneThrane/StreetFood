@@ -22,6 +22,18 @@ namespace BuddyX\Buddyx;
 	<?php do_action( 'buddyx_footer_before' ); ?>
 
 	<footer id="colophon" class="site-footer">
+    <div class="col-sm-4">  <a>Find os</a></br>
+<p>Esbjerg Street Food</br>
+Kongensgade 34</br>
+Borgergade 33, 6700 Esbjerg</br> </div></p>
+    <div class="col-sm-4"> <a>Åbningstider madboder</a></br> 
+<p>Søndag – torsdag: 11:30 – 20:00</br> 
+Fredag – lørdag: 11:30 – 21:00</br> 
+Madboderne kan have længere åben </div></p>
+    <div class="col-sm-4"> <a>Åbningstider barer</br> </a>
+<p>Søndag – onsdag: 11:30 til senest 21:00</br> 
+Torsdag – lørdag: 11:30 til senest 02:00</br> </p>
+</div>
 		<?php if ( ! function_exists( 'elementor_theme_do_location' ) || ! elementor_theme_do_location( 'footer' ) ) { ?>
 			<div class="site-footer-wrapper">
 				<div class="container">
@@ -57,19 +69,7 @@ namespace BuddyX\Buddyx;
 
 <?php do_action( 'buddyx_page_bottom' ); ?>
 
-<div class="col-sm-4">  <a>Find os</a></br>
-<p>Esbjerg Street Food</br>
-Kongensgade 34</br>
-Borgergade 33, 6700 Esbjerg</br> </div></p>
-    <div class="col-sm-4"> <a>Åbningstider madboder</a></br> 
-<p>Søndag – torsdag: 11:30 – 20:00</br> 
-Fredag – lørdag: 11:30 – 21:00</br> 
-Madboderne kan have længere åben </div></p>
-    <div class="col-sm-4"> <a>Åbningstider barer</br> </a>
-<p>Søndag – onsdag: 11:30 til senest 21:00</br> 
-Torsdag – lørdag: 11:30 til senest 02:00</br>  </div></p>
-
-</div><!-- #page -->
+<!-- #page -->
 
 <div class="mobile-menu-close"></div>
 
