@@ -13,27 +13,39 @@ Updated: 2022-09-13 10:33:31
 @import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
 
+
+
+/*Header*/
 .site-header-wrapper {
     background: rgb(124,103,82);
-background: radial-gradient(circle, rgba(124,103,82,1) 0%, rgba(81,81,64,1) 21%, rgba(15,36,53,1) 100%);
+    background: radial-gradient(circle, rgba(124,103,82,1) 0%, rgba(81,81,64,1) 21%, rgba(15,36,53,1) 100%);
     padding-top: 2rem;
     padding-bottom: 2rem;
+
+}
+
+.site-logo-wrapper {
+
 }
 
 .site-title {
-    font-family: oswald, sans-serif;
+    font-family: 'Patrick Hand', cursive;
     text-transform: uppercase;
     color: #ffffff;
 
 }
 
+
+/*Basics*/
+
 p {
     color: #28364a;
 }
 
-a {
-    font-family: Oswald, sans-serif;
+.site-title a {
+    font-family: 'Patrick Hand', cursive;
 }
+
 
 input {
     background: rgb(124,103,82);
@@ -55,6 +67,8 @@ ul li {
     color: #ffffff;
 }
 
+
+/*n*/
 #page.site {
     background-color: #263346;
 }
