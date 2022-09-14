@@ -46,6 +46,18 @@ p {
     font-family: 'Patrick Hand', cursive;
 }
 
+.col-sm-4 a {
+    font-family: 'Patrick Hand', cursive;
+    color: #ffffff;
+    font-size: medium;
+    text-align: center;
+}
+
+.col-sm-4 p{
+    text-align: center;
+    font-family: oswald, sans-serif;
+    color: #ffffff;
+    }
 
 main {
     background-color: #f2f0ea
@@ -97,7 +109,7 @@ h1{
     
     }
     
-    /*botton*/
+    /*button*/
     .wpcf7-form-control.has-spinner.wpcf7-submit {
     background-color: #EBC570;
     border-style: none;
