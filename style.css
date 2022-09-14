@@ -48,9 +48,7 @@ p {
 
 
 main {
-    background-color: #f2f0ea;
-    width: 100%;
-    
+    background-color: #f2f0ea
 }
 
 
@@ -72,51 +70,36 @@ article {
    background-color: #f2f0ea;
 }
 
-
-
 h1{
-text-align: center;
-font-family: 'Patrick Hand', cursive;
-}
-
-p{
     text-align: center;
-    font-family: oswald, sans-serif;
+    font-family: 'Patrick Hand', cursive;
     }
-
-
- /*contactform*/
-.wpcf7-form-control .wpcf7-submit {
-background-color: #EBC570;
-}
-
-          
-.wpcf7 input[type="text"],
-.wpcf7 input[type="email"],
-.wpcf7 textarea
-{
-    background-color: #CDCCCA;
-    color: #000;
-    width: 50%;
-
-}
-
-/*botton*/
-.wpcf7-form-control.has-spinner.wpcf7-submit {
-background-color: #EBC570;
-border-style: none;
-}
-        
-            
-          
-          
-          
-          
-          
-          
-          
-          
-
-      
-     
     
+    p{
+        text-align: center;
+        font-family: oswald, sans-serif;
+        }
+    
+    
+     /*contactform*/
+    .wpcf7-form-control .wpcf7-submit {
+    background-color: #EBC570;
+    }
+    
+              
+    .wpcf7 input[type="text"],
+    .wpcf7 input[type="email"],
+    .wpcf7 textarea
+    {
+        background-color: #CDCCCA;
+        color: #000;
+        width: 50%;
+    
+    }
+    
+    /*botton*/
+    .wpcf7-form-control.has-spinner.wpcf7-submit {
+    background-color: #EBC570;
+    border-style: none;
+    }
+            
