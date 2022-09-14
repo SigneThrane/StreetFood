@@ -41,7 +41,9 @@ background: radial-gradient(circle, rgba(124,103,82,1) 0%, rgba(81,81,64,1) 21%,
 }
 
 main {
-    background-color: #f2f0ea
+    background-color: #f2f0ea;
+    width: 100%;
+    
 }
 
 
@@ -60,3 +62,102 @@ ul li {
 article {
    background-color: #f2f0ea;
 }
+
+
+
+h1{
+text-align: center;
+font-family: oswald, sans-serif;
+}
+
+p{
+    text-align: center;
+    }
+   
+          .fullscreen-container {
+            background-color: #F2F0EB;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+          }
+          
+          .container1 {
+            width: 100vw;
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            padding: 0 10px;
+          }
+          
+          .heading h1 {
+            color: white;
+            font-family: "Open Sans", sans-serif;
+            font-size: 2.75rem;
+            text-align: center;
+          }
+          
+          
+          .form-container {
+            background: white;
+            padding: 50px;
+            color: black;
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            width: 100%;
+            max-width: 400px;
+          }
+          
+          form {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+          }
+          
+          .input-group {
+            display: flex;
+            flex-direction: column;
+            gap: 10px;
+          }
+          
+          .input-group label {
+            font-size: .9rem;
+            letter-spacing: 1px;
+          }
+          
+          .input-group input {
+            border: none;
+            outline: none;
+            padding: 7px;
+            font-size: 1rem;
+          }
+          
+          button {
+            padding: 10px;
+            margin-top: 20px;
+            outline: none;
+            border: none;
+            font-size: 1rem;
+            background: #EBC570;
+            color: white;
+            cursor: pointer;
+          }
+          
+          button:focus, button:hover {
+            background: #F2F0EB;
+          }
+          
+        
+            
+          
+          
+          
+          
+          
+          
+          
+          
+
+      
+     
+    
