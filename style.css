@@ -46,6 +46,18 @@ p {
     font-family: 'Patrick Hand', cursive;
 }
 
+.menu-item a {
+    color: #ffffff;
+}
+
+#overlay-search {
+    color: #ffffff;
+}
+
+a .buddypress-icon-wrapper {
+    color: #ffffff;
+}
+
 .site-info {
     background-color: #28364a;
 }
