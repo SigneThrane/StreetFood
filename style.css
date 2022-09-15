@@ -19,14 +19,17 @@ Updated: 2022-09-13 10:33:31
 .site-header-wrapper {
     background: rgb(124,103,82);
     background: radial-gradient(circle, rgba(124,103,82,1) 0%, rgba(81,81,64,1) 21%, rgba(15,36,53,1) 100%);
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
+}
+
+.site-branding img {
+    max-height: 110px;
 }
 
 .site-title {
     font-family: 'Patrick Hand', cursive;
-    text-transform: ;
     color: #ffffff;
 
 }
@@ -34,10 +37,6 @@ Updated: 2022-09-13 10:33:31
  .fa.fa-bell {
     color: #ffffff;
  }
-
-.bp-notify {
-    background-color: #28364a;
-}
 
 a.user-link {
     color: #ffffff;
