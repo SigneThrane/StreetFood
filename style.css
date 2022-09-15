@@ -19,14 +19,17 @@ Updated: 2022-09-13 10:33:31
 .site-header-wrapper {
     background: rgb(124,103,82);
     background: radial-gradient(circle, rgba(124,103,82,1) 0%, rgba(81,81,64,1) 21%, rgba(15,36,53,1) 100%);
-    padding-top: 2rem;
-    padding-bottom: 2rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
 
+}
+
+.site-branding img {
+    max-height: 110px;
 }
 
 .site-title {
     font-family: 'Patrick Hand', cursive;
-    text-transform: ;
     color: #ffffff;
 
 }
@@ -35,16 +38,20 @@ Updated: 2022-09-13 10:33:31
     color: #ffffff;
  }
 
-.bp-notify {
-    background-color: #28364a;
-}
-
 a.user-link {
     color: #ffffff;
 }
 
 .site-sub-header {
     background-color: #EBC570;
+}
+
+.fa {
+    color: #ffffff;
+}
+
+.btn.login {
+    color: #ffffff;
 }
 
 /*Basics*/
@@ -69,6 +76,15 @@ p {
 .site-info {
     background-color: #28364a;
 }
+
+
+.entry-header {
+    background-color: #f2f0ea;
+}
+
+.single-post-main-wrapper {
+    background-color: #f2f0ea; 
+}
 /*footer*/
 #colophon.site-footer {
     background-color: #28364a;
@@ -92,11 +108,27 @@ p {
     font-weight: 100;
     }
 
+    .col-sm-8 a {
+        font-family: 'Patrick Hand', cursive;
+        color: #ffffff;
+        font-size: medium;
+        justify-content: ;
+    }
+
+#icon {
+    padding-left: 3rem;
+    padding-right: 3rem;
+    padding-top: 3rem;
+    padding-bottom: 3rem;
+}
+
 main {
     background-color: #f2f0ea
 }
 
-
+.row p {
+    text-align: left;
+}
 
 ul#primary-menu {
     font-size: large;
@@ -119,6 +151,19 @@ h1{
     text-align: center;
     font-family: 'Patrick Hand', cursive;
     }
+    h5{
+        text-align: center;
+        
+        }
+
+        #about-offer p{
+            text-align: center;
+            
+            }
+           
+            #icon{
+              justify-content: center;
+            }
 
 
  /*contactform*/
@@ -203,24 +248,8 @@ width: 100%;
     
 
     /*button*/
-#signup-submit{
+    .wpcf7-form-control.has-spinner.wpcf7-submit {
     background-color: #EBC570;
     border-style: none;
     }
-
-    #single-post-main-wrapper
-    {
-        background-color: #EBC570;
-        }
- 
-        .entry-content
-        {
-           
-            }
-            .entry-header {
-                
-                }
-  
-
-    
             

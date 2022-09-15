@@ -21,8 +21,6 @@ buddyx()->print_styles( 'buddyx-sidebar', 'buddyx-widgets' );
 
 $default_sidebar = get_theme_mod( 'sidebar_option', buddyx_defaults( 'sidebar-option' ) );
 
-$post_layout = get_theme_mod( 'blog_layout_option', buddyx_defaults( 'blog-layout-option' ) );
-
 ?>
 
 	<?php do_action( 'buddyx_sub_header' ); ?>
@@ -46,53 +44,39 @@ $post_layout = get_theme_mod( 'blog_layout_option', buddyx_defaults( 'blog-layou
 				<?php buddyx()->display_left_sidebar(); ?>
 			</div>
 		</aside>
-	<?php endif; ?> 
+	<?php endif; ?>
 	<?php } ?>
-	
-	<main id="primary" class="site-main">
-		
-		<?php
-		if ( have_posts() ) {
 
-			$classes = get_body_class();
-			if ( in_array( 'blog', $classes ) || in_array( 'archive', $classes ) || in_array( 'search', $classes ) ) {
+	<?php
+	if ( have_posts() ) {
+		?>
+			<?php
+			while ( have_posts() ) {
+				the_post();
 
-				$args = array(
-					'post_layout' => $post_layout,
-					'body_class'  => $classes,
-				);
-				get_template_part( 'template-parts/layout/entry', $post_layout, $args );
-
-
-			} else {
-				while ( have_posts() ) {
-					the_post();
-
-					get_template_part( 'template-parts/content/entry', get_post_type() );
-				}
+				get_template_part( 'template-parts/content/entry', 'page' );
 			}
+			?>
+			<?php
 
 			if ( ! is_singular() ) {
 				get_template_part( 'template-parts/content/pagination' );
 			}
-		} else {
-			get_template_part( 'template-parts/content/error' );
-		}
-		?>
+	} else {
+		get_template_part( 'template-parts/content/error' );
+	}
+	?>
 
-	</main><!-- #primary -->
-    <div class="col-sm-4">  <a>Find os</a></br>
-<p>Esbjerg Street Food</br>
-Kongensgade 34</br>
-Borgergade 33, 6700 Esbjerg</br> </div></p>
-    <div class="col-sm-4"> <a>Åbningstider madboder</a></br> 
-<p>Søndag – torsdag: 11:30 – 20:00</br> 
-Fredag – lørdag: 11:30 – 21:00</br> 
-Madboderne kan have længere åben </div></p>
-    <div class="col-sm-4"> <a>Åbningstider barer</br> </a>
-<p>Søndag – onsdag: 11:30 til senest 21:00</br> 
-Torsdag – lørdag: 11:30 til senest 02:00</br> </p>
-</div>
+
+	<main id="velkommen">
+    <h1>WELCOME TO</br> STREET FOOD FRIENDS</h1>
+<div id="about-offer" class="row">
+<div class="col-6"><img id="icon" width="30%" src="<?php the_field('icon1'); ?>"/> </div>
+<div class="col-6"><h5><?php the_field('header1'); ?></h5><p><?php the_field('text1'); ?></p></div>
+<div class="col-6"><img id="icon" width="30%" src="<?php the_field('icon2'); ?>"/> </div>
+<div class="col-6"><h5><?php the_field('header2'); ?></h5><p><?php the_field('text2'); ?></p></div>
+<div class="col-6"><img id="icon" width="30%" src="<?php the_field('icon3'); ?>"/> </div>
+<div class="col-6"><h5><?php the_field('header3'); ?></h5><p><?php the_field('text3'); ?></p></div></div>
 	<?php if ( class_exists( 'WooCommerce' ) ) { ?>
 		<?php if ( ! is_woocommerce() && $default_sidebar == 'right' && ! is_cart() && $default_sidebar == 'right' && ! is_checkout() && $default_sidebar == 'right' && ! is_account_page() && $default_sidebar == 'right' || ! is_woocommerce() && $default_sidebar == 'both' && ! is_cart() && $default_sidebar == 'both' && ! is_checkout() && $default_sidebar == 'both' && ! is_account_page() && $default_sidebar == 'both' ) : ?>
 			<aside id="secondary" class="primary-sidebar widget-area">
@@ -108,7 +92,6 @@ Torsdag – lørdag: 11:30 til senest 02:00</br> </p>
 					<?php buddyx()->display_right_sidebar(); ?>
 				</div>
 			</aside>
-            
 		<?php endif; ?>
 	<?php } ?>
 
