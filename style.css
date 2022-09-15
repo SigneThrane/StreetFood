@@ -128,11 +128,23 @@ h1{
     }
 
     /*button*/
-#signup_submit{
+#signup-submit{
     background-color: #EBC570;
     border-style: none;
     }
 
+    #single-post-main-wrapper
+    {
+        background-color: #EBC570;
+        }
+ 
+        .entry-content
+        {
+           
+            }
+            .entry-header {
+                
+                }
   
 
     
