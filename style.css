@@ -72,6 +72,15 @@ p {
 .site-info {
     background-color: #28364a;
 }
+
+
+.entry-header {
+    background-color: #f2f0ea;
+}
+
+.single-post-main-wrapper {
+    background-color: #f2f0ea; 
+}
 /*footer*/
 #colophon.site-footer {
     background-color: #28364a;
