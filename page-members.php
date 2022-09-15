@@ -1,4 +1,5 @@
-<h1><br> 
+<main id="primary" class="site-main">
+	<h1><br> 
 				BLIV MEDLEM</h1> 
 
 				<p>Du har mulighed for at blive medlem, og få 10% rabat i vores hyggelige områder, både ude og inde.</p>	
@@ -18,4 +19,4 @@
 				</div>
 		</div>
 
-	</main>
+	</main><!-- #primary -->
