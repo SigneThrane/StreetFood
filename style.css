@@ -99,6 +99,67 @@ h1{
     text-align: center;
     font-family: 'Patrick Hand', cursive;
     }
+
+
+ /*contactform*/
+
+ h2{
+    text-align: center;
+    font-family: 'Patrick Hand', cursive;
+    }
+
+ input{
+    width: 100%;
+    
+    }
+
+ .contactform{
+    background-color: white;
+    width: 60%;
+    display: flex;
+  justify-content: center;
+    }
+
+.medlemskab{
+display: flex;
+flex-wrap: wrap;
+align-items: center;
+justify-content: center;
+align-content: center; 
+    }
+    
+
+.wpcf7-form-control .wpcf7-submit {
+background-color: #EBC570;
+}
+
+          
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea
+{
+    background-color: #e1e1e1;
+    color: #000;
+    width: 100%;
+}
+
+/*bottom*/
+.wpcf7-form-control.has-spinner.wpcf7-submit {
+background-color: #EBC570;
+border-style: none;
+}
+        
+
+          
+          
+          
+          
+          
+          
+          
+
+      
+     
     
     p{
         text-align: center;
