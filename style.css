@@ -46,6 +46,31 @@ p {
     font-family: 'Patrick Hand', cursive;
 }
 
+.site-info {
+    background-color: #28364a;
+}
+/*footer*/
+#colophon.site-footer {
+    background-color: #28364a;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
+}
+.col-sm-4 {
+    text-align: center;
+}
+
+
+.col-sm-4 a {
+    font-family: 'Patrick Hand', cursive;
+    color: #ffffff;
+    font-size: medium;
+}
+
+.col-sm-4 p {
+    font-family: oswald, sans-serif;
+    color: #ffffff;
+    font-weight: 100;
+    }
 
 main {
     background-color: #f2f0ea
@@ -155,9 +180,10 @@ width: 100%;
     
  }
     
-/*botton*/
-.wpcf7-form-control.has-spinner.wpcf7-submit {
-background-color: #EBC570;
-border-style: none;
-}
+
+    /*button*/
+    .wpcf7-form-control.has-spinner.wpcf7-submit {
+    background-color: #EBC570;
+    border-style: none;
+    }
             
