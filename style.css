@@ -30,9 +30,21 @@ Updated: 2022-09-13 10:33:31
 
 .site-title {
     font-family: 'Patrick Hand', cursive;
-    text-transform: uppercase;
+    text-transform: ;
     color: #ffffff;
 
+}
+
+ .fa.fa-bell {
+    color: #ffffff;
+ }
+
+.bp-notify {
+    background-color: #28364a;
+}
+
+a.user-link {
+    color: #ffffff;
 }
 
 
@@ -48,13 +60,10 @@ p {
 
 .menu-item a {
     color: #ffffff;
+    
 }
 
 #overlay-search {
-    color: #ffffff;
-}
-
-a .buddypress-icon-wrapper {
     color: #ffffff;
 }
 
