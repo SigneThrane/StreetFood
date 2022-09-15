@@ -80,8 +80,6 @@ $post_layout = get_theme_mod( 'blog_layout_option', buddyx_defaults( 'blog-layou
 		}
 		?>
 
-        <p>Heeeeeeeeeeeeeeeeeeeeeeeeeeeeest</p>
-
 	</main><!-- #primary -->
 	<?php if ( class_exists( 'WooCommerce' ) ) { ?>
 		<?php if ( ! is_woocommerce() && $default_sidebar == 'right' && ! is_cart() && $default_sidebar == 'right' && ! is_checkout() && $default_sidebar == 'right' && ! is_account_page() && $default_sidebar == 'right' || ! is_woocommerce() && $default_sidebar == 'both' && ! is_cart() && $default_sidebar == 'both' && ! is_checkout() && $default_sidebar == 'both' && ! is_account_page() && $default_sidebar == 'both' ) : ?>
