@@ -78,21 +78,29 @@ h1{
 
  /*contactform*/
 
- h2{
+ h3{
     text-align: center;
     font-family: 'Patrick Hand', cursive;
     }
+    
+    
 
  input{
     width: 100%;
     
     }
+    .hero{
+       position: absolute;
+       margin: -60px;
+        }
 
  .contactform{
     background-color: white;
     width: 60%;
     display: flex;
   justify-content: center;
+  padding-top: 330px;
+  
     }
 
 .medlemskab{
@@ -101,6 +109,7 @@ flex-wrap: wrap;
 align-items: center;
 justify-content: center;
 align-content: center; 
+
     }
     
 
@@ -123,44 +132,32 @@ background-color: #EBC570;
 background-color: #EBC570;
 border-style: none;
 }
-        
 
-          
-          
-          
-          
-          
-          
-          
-
-      
-     
-    
-    p{
-        text-align: center;
-        font-family: oswald, sans-serif;
+p{
+text-align: center;
+font-family: oswald, sans-serif;
         }
     
     
-     /*contactform*/
-    .wpcf7-form-control .wpcf7-submit {
-    background-color: #EBC570;
-    }
+/*contactform*/
+ .wpcf7-form-control .wpcf7-submit {
+background-color: #EBC570;
+}
     
               
-    .wpcf7 input[type="text"],
-    .wpcf7 input[type="email"],
-    .wpcf7 textarea
-    {
-        background-color: #CDCCCA;
-        color: #000;
-        width: 50%;
+.wpcf7 input[type="text"],
+.wpcf7 input[type="email"],
+.wpcf7 textarea
+ {
+background-color: #CDCCCA;
+color: #000;
+width: 100%;
     
-    }
+ }
     
-    /*botton*/
-    .wpcf7-form-control.has-spinner.wpcf7-submit {
-    background-color: #EBC570;
-    border-style: none;
-    }
+/*botton*/
+.wpcf7-form-control.has-spinner.wpcf7-submit {
+background-color: #EBC570;
+border-style: none;
+}
             
