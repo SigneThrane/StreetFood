@@ -24,10 +24,6 @@ Updated: 2022-09-13 10:33:31
 
 }
 
-.site-logo-wrapper {
-
-}
-
 .site-title {
     font-family: 'Patrick Hand', cursive;
     text-transform: ;
@@ -47,6 +43,9 @@ a.user-link {
     color: #ffffff;
 }
 
+.site-sub-header {
+    background-color: #EBC570;
+}
 
 /*Basics*/
 
@@ -183,6 +182,7 @@ p{
 text-align: center;
 font-family: oswald, sans-serif;
         }
+
     
     
 /*contactform*/
